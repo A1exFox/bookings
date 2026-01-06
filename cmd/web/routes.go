@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/a1exfox/go-course/pkg/config"
-	"github.com/a1exfox/go-course/pkg/handlers"
+	"github.com/a1exfox/bookings/pkg/config"
+	"github.com/a1exfox/bookings/pkg/handlers"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 )

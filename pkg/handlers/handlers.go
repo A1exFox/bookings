@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/a1exfox/go-course/pkg/config"
-	"github.com/a1exfox/go-course/pkg/models"
-	"github.com/a1exfox/go-course/pkg/render"
+	"github.com/a1exfox/bookings/pkg/config"
+	"github.com/a1exfox/bookings/pkg/models"
+	"github.com/a1exfox/bookings/pkg/render"
 )
 
 var Repo *Repository
