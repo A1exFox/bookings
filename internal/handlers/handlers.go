@@ -6,9 +6,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/a1exfox/bookings/pkg/config"
-	"github.com/a1exfox/bookings/pkg/models"
-	"github.com/a1exfox/bookings/pkg/render"
+	"github.com/a1exfox/bookings/internal/config"
+	"github.com/a1exfox/bookings/internal/models"
+	"github.com/a1exfox/bookings/internal/render"
 )
 
 var Repo *Repository
