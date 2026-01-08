@@ -7,6 +7,7 @@ import (
 	"net/http"
 
 	"github.com/a1exfox/bookings/internal/config"
+	"github.com/a1exfox/bookings/internal/forms"
 	"github.com/a1exfox/bookings/internal/models"
 	"github.com/a1exfox/bookings/internal/render"
 )
@@ -46,7 +47,13 @@ func (m *Repository) About(w http.ResponseWriter, r *http.Request) {
 }
 
 func (m *Repository) Reservation(w http.ResponseWriter, r *http.Request) {
-	render.RenderTemplate(w, r, "make-reservation.page.tmpl", &models.TemplateData{})
+	render.RenderTemplate(w, r, "make-reservation.page.tmpl", &models.TemplateData{
+		Form: forms.New(nil),
+	})
+}
+
+func (m *Repository) PostReservation(w http.ResponseWriter, r *http.Request) {
+
 }
 
 func (m *Repository) Generals(w http.ResponseWriter, r *http.Request) {
