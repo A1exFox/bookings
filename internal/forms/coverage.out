@@ -1,0 +1,18 @@
+mode: set
+github.com/a1exfox/bookings/internal/forms/errors.go:5.44,7.2 1 1
+github.com/a1exfox/bookings/internal/forms/errors.go:9.42,11.18 2 1
+github.com/a1exfox/bookings/internal/forms/errors.go:11.18,13.3 1 1
+github.com/a1exfox/bookings/internal/forms/errors.go:14.2,14.14 1 1
+github.com/a1exfox/bookings/internal/forms/forms.go:16.29,18.2 1 1
+github.com/a1exfox/bookings/internal/forms/forms.go:20.33,25.2 1 1
+github.com/a1exfox/bookings/internal/forms/forms.go:27.43,28.31 1 1
+github.com/a1exfox/bookings/internal/forms/forms.go:28.31,30.37 2 1
+github.com/a1exfox/bookings/internal/forms/forms.go:30.37,32.4 1 1
+github.com/a1exfox/bookings/internal/forms/forms.go:36.39,38.13 2 1
+github.com/a1exfox/bookings/internal/forms/forms.go:38.13,40.3 1 1
+github.com/a1exfox/bookings/internal/forms/forms.go:41.2,41.13 1 1
+github.com/a1exfox/bookings/internal/forms/forms.go:44.57,46.21 2 1
+github.com/a1exfox/bookings/internal/forms/forms.go:46.21,49.3 2 1
+github.com/a1exfox/bookings/internal/forms/forms.go:50.2,50.13 1 1
+github.com/a1exfox/bookings/internal/forms/forms.go:53.38,54.40 1 1
+github.com/a1exfox/bookings/internal/forms/forms.go:54.40,56.3 1 1
