@@ -24,7 +24,12 @@ remove:
 	@docker rm adminer postgres
 	@docker network rm localnet
 
-dump:
-	@docker exec postgres pg_dump \
-	-U $(POSTGRES_USER) \
-	$(POSTGRES_DB) > ./db_backup/$(POSTGRES_DB).sql
+# make soda-create ARG="CreateUserTable"
+soda-create:
+	soda generate fizz $(ARG)
+
+migrate:
+	soda migrate
+
+migrate-down:
+	soda migrate down
